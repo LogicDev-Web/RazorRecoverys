@@ -22,9 +22,9 @@
     <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
-    RewriteRule ^index\.php$ - [L]
+    RewriteRule ^index\.html$ - [L]
     RewriteCond %{REQUEST_FILEANME} !-f
     RewriteCond %{REQUEST_FILEANME} !-d
-    RewriteRule . /index.php [L]
+    RewriteRule . /index.html [L]
     </IfModule>
 
